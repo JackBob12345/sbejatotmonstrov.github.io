@@ -1,4 +1,4 @@
-mon=["MONSTER1","MONSTER2","MONSTER3"];
+mon=["monster1","monster2","monster3"];
 igra=1;
 monster=0;
 ost=0;
