@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поймай монстра</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<a href="index.html">Меню</a>
+    <h3 id="ochki">Начните игру</h3>
+    <h3 align="center" id="levelTEXT">Уровень: 1</h3>
+    <h1 id="start" align="center" onclick="if(igra==1){onclick(nextlevel(),game())}">Начать</h1>
+    <table align="center">
+        <tr>
+            <td width="100px" height="100px"><img onclick="if(monster==1){onclick(check())}" width="250px" height="500px" id="door1" src="IMG/DOOR.png" alt=""></td>
+            <td width="100px" height="100px"><img onclick="if(monster==2){onclick(check())}" width="250px" height="500px" id="door2" src="IMG/DOOR.png" alt=""></td>
+            <td width="100px" height="100px"><img onclick="if(monster==3){onclick(check())}" width="250px" height="500px" id="door3" src="IMG/DOOR.png" alt=""></td>
+        </tr>
+    </table>
+    <h2 align="center" id="itog"></h2>
+</body>
+<script src="script.js"></script>
+</html>
