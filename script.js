@@ -38,7 +38,7 @@ function nextlevel(){
         speed=500;
         game();
         
-    }if(level==5){
+    }if(level==5){img
         levelTEXT.innerHTML=("Уровень: 5");
         itog.innerHTML=("Пятый уровень пройден!");
         ball=15;
@@ -88,7 +88,7 @@ function play(){;
 }
 
 function check(){
-    MonsterD.src=("IMG/DOOR.png");
+    MonsterD.src=("IMG/door.png");
     ball--;
     monster=0;
     ochki.innerHTML=("Осталось монстров: "+ball);
@@ -99,7 +99,7 @@ function check(){
 
 
 function proig(){
-        MonsterD.src=("IMG/DOOR.png");
+        MonsterD.src=("IMG/door.png");
         itog.innerHTML=("Проиграл!");
         ochki.innerHTML=("Осталось монстров: "+ball);
         level=0;
@@ -113,7 +113,7 @@ function proig(){
 }
 
 function win(){
-    MonsterD.src=("IMG/DOOR.png");
+    MonsterD.src=("IMG/door.png");
     ochki.innerHTML=("Осталось монстров: "+ball);
     igra=1;
     monster=0;

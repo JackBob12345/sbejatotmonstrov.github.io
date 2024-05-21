@@ -18,7 +18,7 @@ body{
     color: rgb(159, 85, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-size: 2100px;
-    background-image: url(../IMG/Background.png);
+    background-image: url(../IMG/background.png);
 }
 td{
     cursor: pointer;
