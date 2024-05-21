@@ -80,7 +80,7 @@ function play(){;
     rndD=Math.floor(Math.random()*3+1);
     rndMon=Math.floor(Math.random()*3)
     MonsterD=document.getElementById("door"+rndD);
-    MonsterD.src=("IMG/"+mon[rndMon]+".png");
+    MonsterD.src=("img/"+mon[rndMon]+".png");
     monster=rndD;
     newinterval=setInterval(proig,2000-proigspeed);
     clearInterval(interval1);
@@ -88,7 +88,7 @@ function play(){;
 }
 
 function check(){
-    MonsterD.src=("IMG/door.png");
+    MonsterD.src=("img/door.png");
     ball--;
     monster=0;
     ochki.innerHTML=("Осталось монстров: "+ball);
@@ -99,7 +99,7 @@ function check(){
 
 
 function proig(){
-        MonsterD.src=("IMG/door.png");
+        MonsterD.src=("img/door.png");
         itog.innerHTML=("Проиграл!");
         ochki.innerHTML=("Осталось монстров: "+ball);
         level=0;
@@ -113,7 +113,7 @@ function proig(){
 }
 
 function win(){
-    MonsterD.src=("IMG/door.png");
+    MonsterD.src=("img/door.png");
     ochki.innerHTML=("Осталось монстров: "+ball);
     igra=1;
     monster=0;
